@@ -1,11 +1,11 @@
 import utilities from '../helpers/utilities.js';
 
 const veggies = [
-    {id: "veggies1", name: "spinach", price: 50},
-    {id: "veggies2", name: "tomato", price: 90},
-    {id: "veggies3", name: "green pepper", price: 500},
-    {id: "veggies4", name: "onion", price: 0},
-    {id: "veggies5", name: "jalapeño", price: 5},
+    {id: "veggies1", name: "spinach", price: 100.00},
+    {id: "veggies2", name: "tomato", price: 100.00},
+    {id: "veggies3", name: "green pepper", price: 100.00},
+    {id: "veggies4", name: "onion", price: 100.00},
+    {id: "veggies5", name: "jalapeño", price: 50.00},
 
 ];
 

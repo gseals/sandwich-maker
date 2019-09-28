@@ -2,11 +2,11 @@ import utilities from '../helpers/utilities.js';
 
 
 const condiments = [
-    {id: "condiments1", name: "mayo", price: 50},
-    {id: "condiments2", name: "olive oil", price: 90},
-    {id: "condiments3", name: "vinegar", price: 500},
+    {id: "condiments1", name: "mayo", price: 50.00},
+    {id: "condiments2", name: "olive oil", price: 30.00},
+    {id: "condiments3", name: "vinegar", price: 0},
     {id: "condiments4", name: "salt & pepper", price: 0},
-    {id: "condiments5", name: "sriracha", price: 5},
+    {id: "condiments5", name: "sriracha", price: 15.00},
 
 ];
 

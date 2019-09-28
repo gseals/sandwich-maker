@@ -10,18 +10,18 @@ const condiments = [
 
 ];
 
-// const getSelectedBreads = () => {
-//     const selectedBread = [];
-//     const breadCheckboxes = document.getElementsByClassName('cheese');
-//     for(let j = 0; j < cheeseCheckboxes.length; j++){
-//         for(let k = 0; k < condiments.length; k++){
-//           if(cheeseCheckboxes[j].checked && cheeseCheckboxes[j].id === condiments[k].id){
-//             selectedcondiments.push(condiments[k]);
-//           }
-//         }
-//       }
-//       return selectedcondiments;
-// }
+const getSelectedCondiments = () => {
+    const selectedCondiments = [];
+    const condimentCheckboxes = document.getElementsByClassName('condiment');
+    for(let j = 0; j < condimentCheckboxes.length; j++){
+        for(let k = 0; k < condiments.length; k++){
+          if(condimentCheckboxes[j].checked && condimentCheckboxes[j].id === condiments[k].id){
+            selectedCondiments.push(condiments[k]);
+          }
+        }
+      }
+      return selectedCondiments;
+}
 
 const condimentsPrint = () => {
     let domString = '';
@@ -36,4 +36,4 @@ const condimentsPrint = () => {
 };
 
 
-export default { condimentsPrint };
+export default { condimentsPrint, getSelectedCondiments };

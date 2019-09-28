@@ -1,26 +1,26 @@
 import utilities from '../helpers/utilities.js';
 
 const breads = [
-    {id: "bread1", name: "white", price: 50},
-    {id: "bread2", name: "italian", price: 90},
-    {id: "bread3", name: "wheat", price: 500},
-    {id: "bread4", name: "whole-grain wheat", price: 0},
-    {id: "bread5", name: "honey wheat", price: 5},
+    {id: "bread1", name: "white", price: 500.00},
+    {id: "bread2", name: "italian", price: 900.00},
+    {id: "bread3", name: "wheat", price: 500.00},
+    {id: "bread4", name: "whole-grain wheat", price: 200.00},
+    {id: "bread5", name: "honey wheat", price: 300.00},
 
 ];
 
-// const getSelectedBreads = () => {
-//     const selectedBread = [];
-//     const breadCheckboxes = document.getElementsByClassName('cheese');
-//     for(let j = 0; j < cheeseCheckboxes.length; j++){
-//         for(let k = 0; k < cheeses.length; k++){
-//           if(cheeseCheckboxes[j].checked && cheeseCheckboxes[j].id === cheeses[k].id){
-//             selectedCheeses.push(cheeses[k]);
-//           }
-//         }
-//       }
-//       return selectedCheeses;
-// }
+const getSelectedBreads = () => {
+    const selectedBreads = [];
+    const breadCheckboxes = document.getElementsByClassName('bread');
+    for(let j = 0; j < breadCheckboxes.length; j++){
+        for(let k = 0; k < breads.length; k++){
+          if(breadCheckboxes[j].checked && breadCheckboxes[j].id === breads[k].id){
+            selectedBreads.push(breads[k]);
+          }
+        }
+      }
+      return selectedBreads;
+}
 
 const breadPrint = () => {
     let domString = '';
@@ -35,4 +35,4 @@ const breadPrint = () => {
 };
 
 
-export default { breadPrint };
+export default { breadPrint, getSelectedBreads };

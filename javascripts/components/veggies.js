@@ -9,18 +9,18 @@ const veggies = [
 
 ];
 
-// const getSelectedBreads = () => {
-//     const selectedBread = [];
-//     const breadCheckboxes = document.getElementsByClassName('cheese');
-//     for(let j = 0; j < cheeseCheckboxes.length; j++){
-//         for(let k = 0; k < veggies.length; k++){
-//           if(cheeseCheckboxes[j].checked && cheeseCheckboxes[j].id === veggies[k].id){
-//             selectedveggies.push(veggies[k]);
-//           }
-//         }
-//       }
-//       return selectedveggies;
-// }
+const getSelectedVeggies = () => {
+    const selectedVeggies = [];
+    const veggieCheckboxes = document.getElementsByClassName('veggie');
+    for(let j = 0; j < veggieCheckboxes.length; j++){
+        for(let k = 0; k < veggies.length; k++){
+          if(veggieCheckboxes[j].checked && veggieCheckboxes[j].id === veggies[k].id){
+            selectedVeggies.push(veggies[k]);
+          }
+        }
+      }
+      return selectedVeggies;
+}
 
 const veggiesPrint = () => {
     let domString = '';
@@ -35,4 +35,4 @@ const veggiesPrint = () => {
 };
 
 
-export default { veggiesPrint };
+export default { veggiesPrint, getSelectedVeggies };

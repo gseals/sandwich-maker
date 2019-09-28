@@ -10,18 +10,18 @@ const cheeses = [
 
 ];
 
-// const getSelectedBreads = () => {
-//     const selectedBread = [];
-//     const breadCheckboxes = document.getElementsByClassName('cheese');
-//     for(let j = 0; j < cheeseCheckboxes.length; j++){
-//         for(let k = 0; k < cheeses.length; k++){
-//           if(cheeseCheckboxes[j].checked && cheeseCheckboxes[j].id === cheeses[k].id){
-//             selectedCheeses.push(cheeses[k]);
-//           }
-//         }
-//       }
-//       return selectedCheeses;
-// }
+const getSelectedCheeses = () => {
+    const selectedCheeses = [];
+    const cheeseCheckboxes = document.getElementsByClassName('cheese');
+    for(let j = 0; j < cheeseCheckboxes.length; j++){
+        for(let k = 0; k < cheeses.length; k++){
+          if(cheeseCheckboxes[j].checked && cheeseCheckboxes[j].id === cheeses[k].id){
+            selectedCheeses.push(cheeses[k]);
+          }
+        }
+      }
+      return selectedCheeses;
+}
 
 const cheesePrint = () => {
     let domString = '';
@@ -38,4 +38,4 @@ const cheesePrint = () => {
 
 
 
-export default { cheesePrint };
+export default { cheesePrint, getSelectedCheeses };

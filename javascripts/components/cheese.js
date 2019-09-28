@@ -2,11 +2,11 @@ import utilities from '../helpers/utilities.js';
 
 
 const cheeses = [
-    {id: "cheese1", name: "provolone", price: 50},
-    {id: "cheese2", name: "cheddar", price: 90},
-    {id: "cheese3", name: "american", price: 500},
-    {id: "cheese4", name: "pepper jack", price: 0},
-    {id: "cheese5", name: "swiss", price: 5},
+    {id: "cheese1", name: "provolone", price: 30000.00},
+    {id: "cheese2", name: "cheddar", price: 90000.00},
+    {id: "cheese3", name: "american", price: 50000.00},
+    {id: "cheese4", name: "pepper jack", price: 25000.00},
+    {id: "cheese5", name: "swiss", price: 60000.00},
 
 ];
 

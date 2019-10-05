@@ -15,10 +15,10 @@ An application allowing users to create a custom sandwich. Once generated, infor
 ## Screenshot(s)
 
 Page Load
-![Main View](https://raw.githubusercontent.com/gseals/temp-converter/master/screenshots/Mainview.png)
+![Main View](https://raw.githubusercontent.com/gseals/sandwich-maker/master/screenshots/mainview.png)
 
 Selections totalled via "Generate Sandwich?" button
-![Generate](https://raw.githubusercontent.com/gseals/temp-converter/master/screenshots/redtemp.png)
+![Generate](https://raw.githubusercontent.com/gseals/sandwich-maker/master/screenshots/generated.png)
 
 <!-- Selections "submitted" once "Submit Sandwich?" pressed
 ![Submit](https://raw.githubusercontent.com/gseals/temp-converter/master/screenshots/redtemp2.png) feature to come-->

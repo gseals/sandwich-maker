@@ -11,14 +11,12 @@ const createFinalOrder = (items) => {
     for (let i = 0; i < items.length; i++) {
         let totalPrice = items[i].price;
         sum += totalPrice;
-        totalPrice /= 100;
         let currency = totalPrice.toLocaleString("en-US", {style:"currency", currency:"USD"});
         domString2 += `<div>
         <p><strong>${items[i].name} ${currency}</strong></p>
         </div>
         `
     };
-    sum /= 100;
     const total = sum.toLocaleString("en-US", {style:"currency", currency: "USD"});
     domString2 += `<hr>
     <h4>Total: ${total}</h4>`;

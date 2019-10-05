@@ -1,11 +1,11 @@
 import utilities from '../helpers/utilities.js';
 
 const meats = [
-    {id: "meats1", name: "shaved turkey", price: 500.},
-    {id: "meats2", name: "tuna", price: 600.00},
-    {id: "meats3", name: "ham", price: 450.00},
-    {id: "meats4", name: "tofu", price: 300.00},
-    {id: "meats5", name: "chicken", price: 350.00},
+    {id: "meats1", name: "shaved turkey", price: 5.00},
+    {id: "meats2", name: "tuna", price: 6.00},
+    {id: "meats3", name: "ham", price: 4.50},
+    {id: "meats4", name: "tofu", price: 3.00},
+    {id: "meats5", name: "chicken", price: 3.50},
 
 ];
 

@@ -18,7 +18,7 @@ Page Load
 ![Main View](https://raw.githubusercontent.com/gseals/sandwich-maker/master/screenshots/mainview.png)
 
 Selections totalled via "Generate Sandwich?" button
-![Generate](https://raw.githubusercontent.com/gseals/sandwich-maker/master/screenshots/generated.png)
+![Generate sandwich](https://raw.githubusercontent.com/gseals/sandwich-maker/master/screenshots/generated.png)
 
 <!-- Selections "submitted" once "Submit Sandwich?" pressed
 ![Submit](https://raw.githubusercontent.com/gseals/temp-converter/master/screenshots/redtemp2.png) feature to come-->
